@@ -7,3 +7,53 @@ logistic baseline with alcohol_x_bmi
 Fold AUC scores: [0.69512234 0.69362485 0.69334375 0.69475318 0.69516874]
 Mean CV AUC: 0.694402571929021
 Std CV AUC: 0.0007686294615643495
+
+** logistic baseline with waist_to_hip_ratio_x_physical_activity_minutes_per_week
+Fold AUC scores: [0.69516378 0.69367688 0.69339656 0.69483536 0.69528337]
+Mean CV AUC: 0.6944711909802632
+Std CV AUC: 0.0007820104225392796
+
+logistic baseline with systolic_bp_x_physical_activity_minutes_per_week
+Fold AUC scores: [0.69511771 0.69363262 0.69328279 0.69474791 0.69517725]
+Mean CV AUC: 0.6943916563821925
+Std CV AUC: 0.0007844661578440382
+
+** logistic baseline with bmi_x_physical_activity_minutes_per_week
+Fold AUC scores: [0.69514676 0.69367828 0.69343134 0.69487644 0.69530619]
+Mean CV AUC: 0.6944878033511165
+Std CV AUC: 0.0007780056461785685
+
+** logistic baseline with ldl_cholesterol_x_physical_activity_minutes_per_week
+Fold AUC scores: [0.69516868 0.69368883 0.69336336 0.69477085 0.69526201]
+Mean CV AUC: 0.6944507457607143
+Std CV AUC: 0.0007796110387155876
+
+logistic baseline with physical_activity_minutes_per_week_x_alcohol_consumption_per_week
+Fold AUC scores: [0.69514541 0.6936412  0.69334156 0.69472583 0.69515707]
+Mean CV AUC: 0.6944022160604443
+Std CV AUC: 0.0007656372790569242
+
+logistic baseline with age_x_physical_activity_minutes_per_week
+Fold AUC scores: [0.69513378 0.69364508 0.69334042 0.69473061 0.69514972]
+Mean CV AUC: 0.6943999217273878
+Std CV AUC: 0.0007618988899757662
+
+** logistic baseline with bmi_x_age
+Fold AUC scores: [0.69514961 0.69365537 0.69334652 0.69475113 0.69522152]
+Mean CV AUC: 0.6944248276245641
+Std CV AUC: 0.0007773417064757319
+
+logistic baseline with waist_to_hip_ratio_x_physical_activity_minutes_per_week, bmi_x_physical_activity_minutes_per_week, ldl_cholesterol_x_physical_activity_minutes_per_week, bmi_x_age
+Fold AUC scores: [0.69515741 0.69369665 0.69341226 0.69489703 0.69539491]
+Mean CV AUC: 0.6945116498135449
+Std CV AUC: 0.0008023149931812661
+
+logistic baseline with log1p to physical_activity_minutes_per_week,triglycerides
+Fold AUC scores: [0.69559531 0.69372848 0.69354286 0.69487213 0.69521619]
+Mean CV AUC: 0.6945909923713602
+Std CV AUC: 0.0008149928188837471
+
+logistic baseline with binning
+Fold AUC scores: [0.69585328 0.69440206 0.69409989 0.69514112 0.69570568]
+Mean CV AUC: 0.6950404066304441
+Std CV AUC: 0.000693621512116778
